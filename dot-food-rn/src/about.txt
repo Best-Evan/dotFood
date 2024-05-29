@@ -1,0 +1,1 @@
+структура по типу atoms, если еще не, то: https://cheesecakelabs.com/blog/atomic-design-react/

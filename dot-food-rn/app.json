@@ -1,0 +1,41 @@
+{
+    "expo": {
+        "name": "dot-food-rn",
+        "slug": "dot-food-rn",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION", "FOREGROUND_SERVICE"],
+            "softwareKeyboardLayoutMode": "pan",
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "dot_food_01.apk",
+            "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyBF-R08jVAFwkhbih2wMHDTesRpK3doixE"
+                }
+            },
+            "versionCode": 4
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
